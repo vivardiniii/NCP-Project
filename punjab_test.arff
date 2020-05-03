@@ -1,30 +1,57 @@
 @RELATION punjab_test
 
-@ATTRIBUTE attribute_0 {PUNJAB,﻿STATE}
-@ATTRIBUTE attribute_1 {AMRITSAR,DISTRICT}
-@ATTRIBUTE attribute_2 REAL
-@ATTRIBUTE attribute_3 REAL
-@ATTRIBUTE attribute_4 REAL
-@ATTRIBUTE attribute_5 REAL
-@ATTRIBUTE attribute_6 REAL
-@ATTRIBUTE attribute_7 REAL
-@ATTRIBUTE attribute_8 REAL
+@attribute rape numeric
+@attribute kidnapping numeric
+@attribute dowry_deaths numeric
+@attribute assault numeric
+@attribute insult_to_modesty numeric
+@attribute domestic_cruelty numeric
+@attribute class {0,1,2}
 
-@DATA
-﻿STATE,DISTRICT,Year,Rape,Kidnapping and Abduction,Dowry Deaths,Assault on women with intent to outrage her modesty,Insult to modesty of Women,Cruelty by Husband or his Relatives
-PUNJAB,AMRITSAR,2001,9,26,7,9,0,77
-PUNJAB,AMRITSAR,2002,5,23,9,14,0,74
-PUNJAB,AMRITSAR,2003,11,25,4,9,0,50
-PUNJAB,AMRITSAR,2004,25,23,7,9,0,54
-PUNJAB,AMRITSAR,2005,5,14,2,6,0,44
-PUNJAB,AMRITSAR,2006,13,19,5,6,0,55
-PUNJAB,AMRITSAR,2007,21,46,5,20,6,78
-PUNJAB,AMRITSAR,2007,10,24,1,9,5,17
-PUNJAB,AMRITSAR,2008,15,44,6,25,11,66
-PUNJAB,AMRITSAR,2009,15,37,7,15,6,85
-PUNJAB,AMRITSAR,2010,16,25,2,13,1,53
-PUNJAB,AMRITSAR,2010,24,43,10,10,4,87
-PUNJAB,AMRITSAR,2011,16,20,1,16,0,58
-PUNJAB,AMRITSAR,2011,20,34,4,7,1,101
-PUNJAB,AMRITSAR,2012,18,30,8,12,0,49
-PUNJAB,AMRITSAR,2012,27,45,5,14,0,105
+@data
+9,26,7,9,0,77,0
+5,23,9,14,0,74,0
+11,25,4,9,0,50,0
+25,23,7,9,0,54,0
+5,14,2,6,0,44,0
+13,19,5,6,0,55,0
+21,46,5,20,6,78,0
+10,24,1,9,5,17,0
+15,44,6,25,11,66,0
+15,37,7,15,6,85,0
+16,25,2,13,1,53,0
+24,43,10,10,4,87,0
+16,20,1,16,0,58,0
+20,34,4,7,1,101,0
+18,30,8,12,0,49,0
+27,45,5,14,0,105,0
+12,13,6,13,0,24,1
+11,5,3,8,0,25,1
+15,7,2,12,0,52,1
+13,2,0,5,0,18,1
+11,1,3,11,0,12,1
+5,3,1,7,0,6,1
+7,3,5,8,0,12,1
+12,6,1,11,0,10,1
+13,5,1,6,0,7,1
+12,2,1,7,0,15,1
+5,5,3,6,0,10,1
+25,8,2,4,0,14,1
+17,37,2,11,0,17,1
+8,4,6,1,0,19,2
+14,8,7,5,0,32,2
+13,9,6,6,0,28,2
+8,5,2,5,0,14,2
+24,11,7,7,0,34,2
+31,14,5,15,0,44,2
+15,16,2,18,0,54,2
+20,13,6,9,0,46,2
+21,10,4,11,0,40,2
+26,23,4,16,0,31,2
+13,14,4,8,0,35,2
+25,20,4,10,0,19,2
+31,29,1,26,0,35,2
+
+
+
+
